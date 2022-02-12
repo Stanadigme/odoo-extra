@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
-from openerp import api, fields, models, _
-from openerp.addons.website.models.website import slug
-from openerp.exceptions import UserError
+from odoo import api, fields, models, _
+from odoo.addons.website.models.website import slug
+from odoo.exceptions import UserError
 
 
 class TwitterAgent(models.Model):

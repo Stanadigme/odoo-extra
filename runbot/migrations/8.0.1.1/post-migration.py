@@ -1,8 +1,8 @@
 # -*- encoding: utf-8 -*-
 
 
-from openerp import SUPERUSER_ID
-from openerp.modules.registry import RegistryManager
+from odoo import SUPERUSER_ID
+from odoo.modules.registry import RegistryManager
 
 
 def get_legacy_name(original_name, version):

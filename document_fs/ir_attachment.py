@@ -3,7 +3,7 @@ import logging
 import os
 import re
 
-from openerp.osv import osv, fields
+from odoo.osv import osv, fields
 
 _logger = logging.getLogger(__name__)
 

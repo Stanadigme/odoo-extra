@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 from json import loads
 from thread import start_new_thread
-from openerp import api, fields, models, registry, SUPERUSER_ID
+from odoo import api, fields, models, registry, SUPERUSER_ID
 from base_stream import Stream, StreamListener
 from oauth import Oauth
 

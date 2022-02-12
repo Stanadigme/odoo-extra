@@ -22,10 +22,10 @@
 import base64
 from StringIO import StringIO
 
-from openerp.modules.module import get_module_resource
+from odoo.modules.module import get_module_resource
 import openerp.modules.registry
-from openerp.osv import osv
-from openerp_sxw2rml import sxw2rml
+from odoo.osv import osv
+from odoo_sxw2rml import sxw2rml
 
 
 class report_xml(osv.osv):

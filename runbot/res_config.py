@@ -19,7 +19,7 @@
 #
 ##############################################################################
 
-from openerp.osv import fields, osv
+from odoo.osv import fields, osv
 
 class runbot_config_settings(osv.osv_memory):
     _name = 'runbot.config.settings'

@@ -29,13 +29,13 @@ from matplotlib.textpath import TextToPath
 import werkzeug
 
 import openerp
-from openerp import http, SUPERUSER_ID
-from openerp.http import request
-from openerp.modules import get_module_resource
-from openerp.osv import fields, osv
-from openerp.tools import config, appdirs
-from openerp.addons.website.models.website import slug
-from openerp.addons.website_sale.controllers.main import QueryURL
+from odoo import http, SUPERUSER_ID
+from odoo.http import request
+from odoo.modules import get_module_resource
+from odoo.osv import fields, osv
+from odoo.tools import config, appdirs
+from odoo.addons.website.models.website import slug
+from odoo.addons.website_sale.controllers.main import QueryURL
 
 _logger = logging.getLogger(__name__)
 

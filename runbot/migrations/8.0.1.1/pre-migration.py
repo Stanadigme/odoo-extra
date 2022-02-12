@@ -1,6 +1,6 @@
 # -*- encoding: utf-8 -*-
 
-from openerp import release
+from odoo import release
 import logging
 
 logger = logging.getLogger('upgrade')

@@ -19,8 +19,8 @@
 #
 ##############################################################################
 
-from openerp.osv import fields, osv
-from openerp.tools.translate import _
+from odoo.osv import fields, osv
+from odoo.tools.translate import _
 
 class open_questionnaire_line(osv.osv_memory):
     _name = 'open.questionnaire.line'

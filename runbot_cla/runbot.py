@@ -5,7 +5,7 @@ import logging
 import re
 
 import openerp
-from openerp.tools import ustr
+from odoo.tools import ustr
 
 _logger = logging.getLogger(__name__)
 

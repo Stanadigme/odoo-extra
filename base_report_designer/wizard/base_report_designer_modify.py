@@ -24,9 +24,9 @@ import base64
 import time
 import urllib
 
-from openerp import osv, tools
-from openerp.osv import fields, osv
-from openerp.tools.translate import _
+from odoo import osv, tools
+from odoo.osv import fields, osv
+from odoo.tools.translate import _
 
 class base_report_sxw(osv.osv_memory):
     """Base Report sxw """

@@ -2,10 +2,10 @@
 import logging
 from base64 import encodestring
 from urllib2 import Request, urlopen
-from openerp.addons.web import http
-from openerp.addons.web.http import request
-from openerp.addons.website_twitter_wall.models.oauth import Oauth
-from openerp.tools.translate import _
+from odoo.addons.web import http
+from odoo.addons.web.http import request
+from odoo.addons.website_twitter_wall.models.oauth import Oauth
+from odoo.tools.translate import _
 
 _logger = logging.getLogger(__name__)
 
